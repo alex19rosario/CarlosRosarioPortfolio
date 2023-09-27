@@ -1,0 +1,7 @@
+exports.render = function (req, res) {
+    res.render('projects', {
+        project1Description: "I undertook the development of a client-server system, a notable accomplishment as I designed a socket-based API from scratch, without relying on any pre-existing framework. This endeavor was exceptionally challenging, but it proved to be a gratifying learning experience. It deepened my knowledge of multithreading programming and honed my ability to send and receive messages through the TCP protocol. This project served as a pivotal moment in my journey, enlightening me about the inner workings of frameworks and granting me the freedom to navigate and comprehend any framework with confidence.",
+        project2Description: "As part of a group effort, we embarked on the creation of a database system tailored for a dental office. Embracing an agile approach, we implemented Scrum methodologies and harnessed various techniques from the Rational Unified Process (RUP) to streamline requirement gathering and process analysis. With a comprehensive understanding of the office's operational intricacies, we meticulously defined the entities, culminating in the development of an Entity Relationship Diagram (ERD).",
+        project3Description: "My portfolio also features a range of web projects, where I adeptly employed JavaScript, HTML, and CSS to craft engaging and interactive user experiences. Moreover, my current semester's agenda includes working with React, further expanding my skill set in web development."
+    });
+};

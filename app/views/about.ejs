@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/aboutStylesheet.css" />
+</head>
+<body>
+    <header>
+        <table id="banner">
+            <tr>
+                <td>
+                    <a href="/"><img id="logo" src="/images/logo.png" alt="logo"></a>
+                </td>
+                <td>
+                    <nav>
+                        <ul id="navBar">
+                            <li class="navElement"><a href="/">Home</a></li>
+                            <li class="navElement"><a href="/about">About me</a></li>
+                            <li class="navElement"><a href="/projects">Projects</a></li>
+                            <li class="navElement"><a href="/services">Services</a></li>
+                            <li class="navElement"><a href="/contact">Contact</a></li> 
+                        </ul>              
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    <main>
+        <h1><%= name %></h1>
+        <div id="profile-container">
+            <img id="profile" src="/images/profile.png" alt="profile">
+        </div>
+        <p><%= para1 %></p>
+        <p><%= para2 %></p>
+        <p id="lastP"><%= para3 %></p>
+        <form action="/files/CarlosResume.pdf" method="GET" target="_blank">
+            <button type="submit" class="btn btn-primary">Show Carlos' Resume</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/thankYouStylesheet.css" />
+</head>
+<body>
+    <header>
+        <table id="banner">
+            <tr>
+                <td>
+                    <a href="/"><img id="logo" src="/images/logo.png" alt="logo"></a>
+                </td>
+                <td>
+                    <nav>
+                        <ul id="navBar">
+                            <li class="navElement"><a href="/">Home</a></li>
+                            <li class="navElement"><a href="/about">About me</a></li>
+                            <li class="navElement"><a href="/projects">Projects</a></li>
+                            <li class="navElement"><a href="/services">Services</a></li>
+                            <li class="navElement"><a href="/contact">Contact</a></li> 
+                        </ul>              
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div>
+        <h1>Thank you <%= clientName %> <%= clientLastname %>!</h1>
+    </div>
+    <div>
+        <img id="confirmation" src="/images/confirmation.png" alt="confirmation">
+        <div>
+            <p>Your request was succesfully received. I will be contacting you very soon.</p>
+        </div>       
+    </div>
+    
+</body>
+</html>

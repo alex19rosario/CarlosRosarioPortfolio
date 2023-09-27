@@ -1,0 +1,8 @@
+exports.render = function (req, res) {
+    res.render('about', {
+        name: "Carlos Alexander Rosario Sanchez",
+        para1: "Throughout my academic journey, which has spanned both the first and second semesters, I've had the privilege of delving deep into the world of programming. I've cultivated a strong foundation in programming fundamentals, with a particular focus on languages like Java and C#.",
+        para2: "Additionally, I've embraced Agile methodologies such as Scrum, XP, and Kanban, which have instilled in me the importance of collaboration and adaptability in software development. My studies have extended beyond the confines of the classroom. I've ventured into the realm of client-side web development, where I've honed my skills in HTML, CSS, and JavaScript, allowing me to craft engaging and interactive web applications.",
+        para3: "Furthermore, I've undertaken a comprehensive exploration of the Software Development phases, drawing inspiration from the Rational Unified Process (RUP) to guide my approach to project development. What truly sets me on fire in the world of software development is my insatiable curiosity and relentless pursuit of knowledge. Beyond my academic requirements, I've embarked on a self-driven learning journey, exploring advanced topics such as Functional Programming, Design Patterns, SOLID principles, Test Driven Development, Apache Maven, Junit, Socket Programming, Linux, Git, Hexagonal Architecture, and the Spring Framework. These areas of study have not only broadened my skill set but have also reinforced my commitment to remaining at the forefront of the field.",
+    });
+};
